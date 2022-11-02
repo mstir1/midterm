@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======================================================================
+        MY styles
+========================================================================*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+	
+}
+
+img {
+    float: left;
+    margin: 0 20px 20px 10px;
+}
+
+header {
+	font-size: 45px;
+	width: 1024px;
+	height: 341px;
+	background-image: url(../images/lone-starfish-wide.jpg);
+	color: white;
+	margin: 0 auto;
+}
+
+.container1 {
+	
+	width: 1024px;
+	position: relative;
+  text-align: center;
+	top: 250px;
+}
+
+.navigation {
+	font-size: 25px;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+	display: inline;
+	margin: 50px 75px 0 150px
+}
+
+ol {
+	list-style-type: disc;
+	margin: 5px 0 0 25px
+  }
+
+
+p {
+	text-align: justify;
+	line-height: 1.2;
+	margin: 5px 20px 0 0
+}
+
+h2 {
+    font-size: 25px;
+	line-height: 1.2;
+}
+
+textarea {
+	width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+	
+	resize:none;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+    box-sizing: border-box;
+	margin: 8px 0;
+}
+
+/*A good way to have the black box around the interactive part of the website*/
+form {
+	position: relative;
+    border: 1px solid black;
+    margin: 20px;
+    word-wrap: auto;
+    padding: 10px;
+}
+
+/*these two input codes were a good way to get the sizes, Yoyo helped me out with this one*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+	padding: 12px 20px;
+	margin: 15px 0;
+	border: 1px solid black;
+	background-color: #d4e9e7	
+}
+.container {
+
+width: 1024px;
+background-color: #d4e9e7;
+margin: 0 auto;
+}
+
+/*87 px down img = 256 px
+
+/*label for + input id (w3schools)*/
